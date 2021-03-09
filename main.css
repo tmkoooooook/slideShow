@@ -1,0 +1,31 @@
+img{
+  height: 300px;
+  width: 100%;
+}
+.slideShow{
+  background-color: #222;
+  width: 600px;
+  height: auto;
+  padding-top: 2px;
+  padding-bottom: 100px;
+  margin: 100px auto;
+  display: none;
+}
+.slideShow.initialized{
+  display: block;
+}
+.title{
+  color: #fff;
+  width: 500px;
+  margin: 10px auto 20px;
+}
+.slick{
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  padding: 0;
+  display: none;
+}
+.slick.slick-initialized{
+  display: block;
+}
